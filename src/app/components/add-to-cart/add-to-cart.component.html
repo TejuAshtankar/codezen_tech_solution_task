@@ -1,0 +1,50 @@
+<div class="card text-center" *ngIf="productList.length === 0">
+  <div class="card-header">
+    ......................
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Your Amazon Cart is empty.</h5>
+    <p class="card-text">No product is added into cart</p>
+    <a href="#" class="btn btn-primary">Go Back</a>
+  </div>
+  <div class="card-footer text-muted">
+    .........................
+  </div>
+</div>
+
+
+
+<div class="container">
+
+  <div class="card mb-3 w-100 ">
+    <div class="row g-0">
+      <ng-container *ngFor="let item of productList">
+        <div class="col-md-4 a b container1">
+          <img src={{item.images}} class="img-fluid rounded-start   img" alt="...">
+        </div>
+        <div class="col-md-8 text-start a container1">
+          <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.description}}</p>
+            <fa-icon [icon]="faStar " class="text-warning"></fa-icon>
+            <fa-icon [icon]="faStar " class="text-warning"></fa-icon>
+            <fa-icon [icon]="faStar " class="text-warning"></fa-icon>
+            <fa-icon [icon]="faStar " class="text-warning"></fa-icon>
+            <fa-icon [icon]="faStar " class="text-warning"></fa-icon> <br>
+            <div><span class="discountPrice">₹ {{item.discountPrice}}</span>
+              M.R.P <span class="textDecore"> {{item.originalPrice}}</span>
+              ( {{item.discountPercentage}}% Off)
+            </div>
+            <p class="emi">Save extra with No Cost EMI <br>
+              Get it within <span class="bold"> 2 , 3 days <br>
+                FREE Delivery by Happy Shop </span>
+            </p>
+
+            <button type="button" class="btn btn-outline-warning" (click)="onRemoveItem(item)">Remove</button>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+
+</div>

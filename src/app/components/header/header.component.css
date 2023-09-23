@@ -1,0 +1,28 @@
+
+.cartsize{
+    height: 40px;
+    width: 45px;
+}
+.itemAlign{
+margin-left: 10px;}
+.logo{
+    width: 200px;
+   
+}
+.padding{
+    margin-left:10px
+}
+.itemAlignEnd{
+justify-content: end;  
+}
+.btnShape{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.spacing{
+    justify-content: space-between;
+}
+.cart{
+    width: 100px;
+    height: 150px;
+}

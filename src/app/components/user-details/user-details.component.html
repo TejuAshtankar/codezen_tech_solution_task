@@ -1,0 +1,75 @@
+<div class="vh-100 bg-secondary">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card shadow-2-strong border">
+            <div class="card-body p-5 text-center">
+              <form [formGroup]="userDetails" (ngSubmit)="onSubmit()">
+                <div class="mb-4">
+                  <input type="text" class="inputbox" placeholder="     First Name" formControlName="fName"/>
+                  <span  class="text-danger"  *ngIf="FName.errors?.['required'] && (FName.touched || FName.dirty)">Field cannot be empty</span>
+                  <span  class="text-danger" *ngIf="FName.errors?.['minlength'] && (FName.touched || FName.dirty)">Field should have minlength of 3 letter</span>
+                  <span  class="text-danger" *ngIf="FName.errors?.['pattern'] && (FName.touched || FName.dirty)">Name should only start with alphabet</span>
+                  
+                </div>
+
+                <div class="mb-4">
+                    <input type="text" class="inputbox" placeholder="     Last Name" formControlName="lName"/>
+                    <span  class="text-danger"  *ngIf="LName.errors?.['required'] && (LName.touched || LName.dirty)">Field cannot be empty</span>
+                    <span  class="text-danger" *ngIf="LName.errors?.['minlength'] && (LName.touched || LName.dirty)">Field should have minlength of 3 letter</span>
+                    <span  class="text-danger" *ngIf="LName.errors?.['pattern'] && (LName.touched || LName.dirty)">Name should only start with alphabet</span>
+                    
+                  </div>
+
+                  <div class="mb-4">
+                    <input type="text" class="inputbox" placeholder="    Mobile Number" formControlName="mobileNumber"/>
+                    <span class="text-danger"  *ngIf="MobileNumber.errors?.['required'] && (MobileNumber.touched || MobileNumber.dirty)">Field cannot be empty</span>
+                    <span  class="text-danger" *ngIf="MobileNumber.errors?.['pattern'] && (MobileNumber.touched || MobileNumber.dirty)">Mobile Number should of 10 digit</span>    
+                  </div>
+
+                <div class="mb-4">
+                    <input type="text" class="inputbox" placeholder="     Address" formControlName="address"/>
+                    <span  class="text-danger"  *ngIf="Address.errors?.['required'] && (Address.touched || Address.dirty)">Field cannot be empty</span>
+                   
+                  </div>
+                  <div class="mb-4">
+                    <input type="email" class="inputbox" placeholder="     Email" formControlName="email"/>
+                    <span class="text-danger" *ngIf="Email.errors?.['required'] && (Email.touched || Email.dirty)">Field cannot be empty</span>
+                    <span class="text-danger" *ngIf="Email.errors?.['email'] && (Email.touched || Email.dirty)">field should be like abc@gmail.com</span>
+                                      
+                  </div>
+  
+                
+  
+                <div class="mb-4">
+                  <input type="text" class="inputbox" placeholder="     Age" formControlName="age"/>
+                  <span  class="text-danger" *ngIf="Age.errors?.['required'] && (Age.touched || Age.dirty)">Field cannot be empty</span>
+  
+                </div>
+  
+                <div class="mb-4">
+                    <input type="date" class="inputbox" placeholder="     DOB" formControlName="dob"/>
+                    <span  class="text-danger" *ngIf="Dob.errors?.['required'] && (Dob.touched || Dob.dirty)">Field cannot be empty</span>
+    
+                  </div>
+  
+                <button class="btn btn-dark btn-lg btn-block padding">Submit</button>
+  
+  
+              </form>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  

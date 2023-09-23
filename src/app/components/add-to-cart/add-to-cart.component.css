@@ -1,0 +1,26 @@
+.container1{
+    display: flex;
+    margin-top:20px;
+}
+
+.b{
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+.img{
+   height: 300px; 
+}
+.textDecore{
+    text-decoration: line-through;
+}
+.discountPrice{
+    font-size: 24px;
+    font-weight: 500;
+}
+.emi{
+    font-size: 15px;
+}
+.bold{
+    font-weight: bold;
+    color: black;
+}

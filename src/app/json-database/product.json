@@ -1,0 +1,109 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Samsung Galaxy M14",
+            "description": "Samsung Galaxy M14 5G (Berry Blue, 6GB, 128GB Storage) | 50MP Triple Cam | Segment's Only 6000 mAh 5G Smartphone | 5nm Octa-Core Processor | 12GB RAM with RAM Plus |",
+            "discountPrice": 15499,
+            "originalPrice": 18990,
+            "discountPercentage": 18,
+            "images": "../../../assets/product-1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Samsung Galaxy M13",
+            "description": "Samsung Galaxy M13 (Midnight Blue, 6GB, 128GB Storage) | 6000mAh Battery | Upto 12GB RAM with RAM Plus",
+            "price": 15499,
+            "discountPrice": 11499,
+            "originalPrice": 17990,
+            "discountPercentage": 36,
+            "images": "../../../assets/product-2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Samsung Galaxy S20",
+            "description": "Samsung Galaxy S20 FE 5G (Cloud Navy, 8GB RAM, 128GB Storage) with No Cost EMI & Additional Exchange Offers",
+            "discountPrice": 29999,
+            "originalPrice": 74990,
+            "discountPercentage": 60,
+            "images": "../../../assets/product-3.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Samsung Galaxy A14",
+            "description": "Samsung Galaxy A14 5G (Black, 8GB, 128GB Storage) | Triple Rear Camera (50 MP Main) | Upto 16 GB RAM with RAM Plus | Without Charger",
+            "discountPrice": 19499,
+            "originalPrice": 22990,
+            "discountPercentage": 13,
+            "images": "../../../assets/product-4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Samsung Galaxy M04",
+            "description": "Samsung Galaxy M04 Dark Blue, 4GB RAM, 64GB Storage | Upto 8GB RAM with RAM Plus | MediaTek Helio P35 Octa-core Processor | 5000 mAh Battery | 13MP Dual Camera",
+            "discountPrice": 7000,
+            "originalPrice": 11000,
+            "discountPercentage": 40,
+            "images": "../../../assets/product-5.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Samsung Galaxy M33",
+            "description": "Samsung Galaxy M33 5G (Mystique Green, 8GB, 128GB Storage) | 6000mAh Battery | Upto 16GB RAM with RAM Plus | Without Charger",
+            "discountPrice": 16000,
+            "originalPrice": 25000,
+            "discountPercentage": 35,
+            "images": "../../../assets/product-6.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Samsung Galaxy M14",
+            "description": "Samsung Galaxy M14 5G (Berry Blue, 4GB, 128GB Storage) | 50MP Triple Cam | Segment's Only 6000 mAh 5G Smartphone | 5nm Octa-Core Processor | Android 13 | Without",
+            "discountPrice": 14000,
+            "originalPrice": 17000,
+            "discountPercentage": 19,
+            "images": "../../../assets/product-7.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Samsung Galaxy M34",
+            "description": "Samsung Galaxy M34 5G (Waterfall Blue, 8GB, 128GB Storage) | 120Hz sAMOLED Display | 50MP Triple No Shake Cam | 6000 mAh Battery | 16GB RAM with RAM Plus | Android 13",
+            "discountPrice": 20000,
+            "originalPrice": 27000,
+            "discountPercentage": 19,
+            "images": "../../../assets/product-8.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Redmi 12 5G",
+            "description": "Redmi 12 5G (Pastel Blue, 4GB 128GB) India's 1st Snapdragon 4 Gen 2",
+            "discountPrice": 20000,
+            "originalPrice": 27000,
+            "discountPercentage": 19,
+            "images": "../../../assets/product-9.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Lava Blaze 2",
+            "description": "Lava Blaze 2 (6GB RAM, 128GB Storage) - Glass Orange | 18W Fast Charging | 6.5 inch 90Hz Punch Hole Display | Side Fingerprint Sensor | Upto 11GB Expandable RAM | 500",
+            "discountPercentage": 12.96,
+            "images": "../../../assets/product-1.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Samsung Galaxy M13",
+            "description": "Samsung Galaxy M13 (Midnight Blue, 6GB, 128GB Storage) | 6000mAh Battery | Upto 12GB RAM with RAM Plus",
+            "price": 15499,
+            "discountPercentage": 12.96,
+            "images": "../../../assets/product-1.jpg"
+        },
+        {
+            "id": 12,
+            "title": "Samsung Galaxy M13",
+            "description": "Samsung Galaxy M13 (Midnight Blue, 6GB, 128GB Storage) | 6000mAh Battery | Upto 12GB RAM with RAM Plus",
+            "price": 15499,
+            "discountPercentage": 12.96,
+            "images": "../../../assets/product-1.jpg"
+        }
+    ]
+}

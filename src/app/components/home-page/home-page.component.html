@@ -1,0 +1,55 @@
+<div class="container">
+
+  <div class="card mb-3 w-100 ">
+    <div class="row g-0">
+      <ng-container *ngFor="let item of productList">
+        <div class="col-md-4 a b container1">
+          <img src={{item.images}} class="img-fluid rounded-start   img" alt="...">
+        </div>
+        <div class="col-md-8 text-start a container1">
+          <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.description}}</p>
+            <fa-icon [icon]="faStar " class="text-warning"></fa-icon>
+            <fa-icon [icon]="faStar " class="text-warning"></fa-icon>
+            <fa-icon [icon]="faStar " class="text-warning"></fa-icon>
+            <fa-icon [icon]="faStar " class="text-warning"></fa-icon>
+            <fa-icon [icon]="faStar " class="text-warning"></fa-icon> <br>
+            <div><span class="discountPrice">₹ {{item.discountPrice}}</span>
+              M.R.P <span class="textDecore"> {{item.originalPrice}}</span>
+              ( {{item.discountPercentage}}% Off)
+            </div>
+            <p class="emi">Save extra with No Cost EMI <br>
+              Get it within <span class="bold"> 2 , 3 days <br>
+                FREE Delivery by Happy Shop </span>
+            </p>
+
+            <button type="button" class="btn btn-outline-warning" (click)="onAddToCart(item)" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">Add to Cart</button>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+
+</div>
+
+<!-- popup-->
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header ">
+        <span class="popup"> Item added sucessfully</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+      </div>
+      <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div> -->
+    </div>
+  </div>
+</div>
