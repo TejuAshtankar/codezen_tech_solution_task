@@ -1,8 +1,6 @@
 To start json server 
-cd src
-cd app
-cd json-database
-json-server --watch product.json
+D:\Companies_Assignment\Codezen Tech Solutions\codezen_tech_solution_task\src\app\json-database>json-server --watch pr
+oduct.json
 
 Once json server started 
 ng server 
